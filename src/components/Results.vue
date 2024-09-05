@@ -425,9 +425,6 @@
 <script setup lang="ts">
 import trafficLight from "../components/charts/trafficLight.vue";
 
-//filename for language tags
-const filename = 'BIM4VIDResultsComp'
-
 //accept props from calling views
 let props = defineProps({
     trafficLightKPI: {
