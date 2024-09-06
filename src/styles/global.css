@@ -68,7 +68,7 @@ select {
   margin-bottom: 20px;
   text-align: left;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #eceaea;
+  background-color: #e7e7e7;
   border-radius: 10px;
   color: black;
   display: flex;
@@ -78,15 +78,19 @@ select {
   /* Gleiche Höhe für beide Boxen */
 }
 
+.boxlight {
+  background-color: #d1d1d1;
+}
+
 .dark .box,
 .dark .leftbox,
 .dark .rightbox {
-  background: #020b3d;
+  background: #191e36;
   color: white;
 }
 
 .dark .boxlight {
-  background:#030d49;
+  background:#191f49;
   color: white;
 }
 

@@ -85,7 +85,7 @@
                                             Konzept muss von der Leitung der Organisation freigegeben und kommuniziert
                                             werden. Das Implementierungsmuster besteht aus den vorbereitenden Schritten
                                             Be-standsaufnahme, Definition der Ziele, Erstellung des Konzepts und
-                                            gegebenenfalls der An-passung der Organisationsziele, -strategie und
+                                            gegebenenfalls der Anpassung der Organisationsziele, -strategie und
                                             -vision.
                                         </p>
                                     </div>
@@ -125,7 +125,7 @@
                                             den Ebenen mit Personalverantwortung vorhanden sein. Kennen Sie schon die <a
                                                 href="https://www.wba-weimar.de/seminare/bim-late-night"
                                                 target="_blank">BIM Late Night</a> der Weiterbildungsakademie der
-                                            Bauhaus-Universität Weimar? Jetzt mit EDIH-Sponsoring 50% günstiger!
+                                            Bauhaus-Universität Weimar? Jetzt mit europäischer Förderung durch das EDIH Thuringia.
                                         </p>
                                     </div>
                                 </div>
@@ -143,7 +143,7 @@
                                             Dienstleistungen von EDIH, zum Beispiel im Bereich der Beschaffung von
                                             Fördermitteln für BIM-Pilotprojekte.
                                         </p>
-                                        <a href="https://edih.digital/moodle/course/index.php?categoryid=1"
+                                        <a href="https://edih.digital/moodle/course/index.php?categoryid=4"
                                             target="_blank">EDIH Beratung zu Fördermitteln, Finanzierungs- und
                                             Geschäftsmodellen für digitale Vorhaben</a>
                                     </div>

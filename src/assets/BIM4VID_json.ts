@@ -3,12 +3,31 @@ const BIM4VID = {
     "description": "Building Information Modeling (BIM) Maturity Model für Verkehrsinfrastrukturbehörden in Deutschland",
     "pages": [
         {
+            "name": "BIM4VIDPage0",
+            "elements": [
+                {
+                    "type": "html",
+                    "name": "explanationquestion0",
+                    "html": "Dieser Reifegradcheck stellt Fragen zum BIM-Implementierungsgrad in Ihrer Organisation. Dabei werden neben einer Selbsteinschätzung nach den Zielen des Masterplans BIM Bundesfernstraßen acht weitere Dimensionen abgefragt. Im Anschluss erhalten Sie eine Auswertung in Form eines Ampelsystems, das Ihnen aufzeigt, in welchen Bereichen sie Vorreiter oder Nachzügler sind."
+                },
+                {
+                    "type": "image",
+                    "name": "image0",
+                    "imageLink": "BIM4VID_Dimensionen-KPI.png",
+                    "imageFit": "cover",
+                    "imageHeight": "auto",
+                    "imageWidth": "100%"
+                }
+            ],
+            "title": "Informationen über den Reifegradcheck"
+        },
+        {
             "name": "BIM4VIDPage1",
             "elements": [
                 {
                     "type": "html",
                     "name": "explanationquestion1",
-                    "html": "Dieser Reifegradcheck stellt Fragen zum BIM-Implementierungsgrad in Ihrer Organisation. Im Anschluss erhalten Sie eine Auswertung in Form eines Ampelsystems. Die Berechnungsmethode ergibt sich aus der von Ihnen betreuten Straßenklasse und den im Masterplan BIM Bundesfernstraßen definierten Zielen. "
+                    "html": "Die Berechnungsmethode der Auswertung ergibt sich anhand der von Ihnen betreuten Straßenklasse und gemäß den im Masterplan BIM Bundesfernstraßen definierten Zielen. Die Anforderungen von Organisationen des Bundesfernstraßenbaus wurden entsprechend für Landes- und Kreisstraßen abgeschwächt."
                 },
                 {
                     "type": "radiogroup",
@@ -143,7 +162,7 @@ const BIM4VID = {
                         },
                         {
                             "type": "html",
-                            "name": "explanationquesion4",
+                            "name": "explanationquesion4-1",
                             "html": "BIM-Anwendungsfälle (AwF)"
                         },
                         {
@@ -154,6 +173,11 @@ const BIM4VID = {
                             "imageHeight": "auto",
                             "imageWidth": "100%"
                         },
+                        {
+                            "type": "html",
+                            "name": "explanationquesion4-2",
+                            "html": "<p>Die zu erreichenden <a href=\"https://www.bimdeutschland.de/fileadmin/media/Downloads/Download-Liste/BIM4INFRA/3_6_BIM4INFRA2020_AP4_Teil6.pdf\" target=\"_blank\">BIM4INFRA-Anwendungsfälle</a> sind in den Rahmendokumenten <a href=\"https://www.bimdeutschland.de/fileadmin/media/Downloads/Download-Liste/Strasse/BIM_RD_Anwendungsfaelle_V1_0_barrierefrei.pdf\" target=\"_blank\">V1</a> und <a href=\"https://www.bim-bundesfernstrassen.de/fileadmin/user_upload/Rahmendokumente/bim-rd-anwendungsfaelle-phase-II.pdf\" target=\"_blank\">V2</a> dargestellt.</p> <p>V1 enthält die Anwendungsfälle Bestandserfassung und - modellierung, Planungsvarianten, Visualisierung, Koordination der Fachgewerke, Ableitung von Planunterlagen, Mengen- und Kostenermittlung, Leistungsverzeichnis, Ausschreibung, Vergabe, Projekt- und Bauwerksdokumentation </p><p>V2 enthält zusätzlich die Anwendungsfälle Planungsfortschrittskontrolle und Qualitätsprüfung, Bemessung und Nachweisführung, Terminplanung der Ausführung, Logistikplanung, Baufortschrittskontrolle, Abnahme- und Mängelmanagement</p><p>Weitere BIM4Infra-AwF sind unter anderem  Arbeits- und Gesundheitsschutz, Planungsfreigabe und Nutzung für Betrieb und Erhaltung</p>"
+                          },
                         {
                             "type": "rating",
                             "name": "BIM4VIDQuestion4",
@@ -574,7 +598,8 @@ const BIM4VID = {
                     "title": "Regulierungen und Verträge"
                 }
             ],
-            "title": "Dimensionen und KPI-Abfragen"
+            "title": "Dimensionen und KPI-Abfragen",
+            "description":"Die weiteren Dimensionen fragen die BIM-Impplementierung in verschiedenen Bereichen ihrer Organisation ab und vervollständigen dadurch ihren BIM-Reifegradcheck."
         },
         {
             "name": "BIM4VIDPage4",
@@ -1008,7 +1033,8 @@ const BIM4VID = {
                     "title": "Technologie und Daten"
                 }
             ],
-            "title": "Dimensionen und KPI-Abfragen"
+            "title": "Dimensionen und KPI-Abfragen",
+            "description":"Die weiteren Dimensionen fragen die BIM-Impplementierung in verschiedenen Bereichen ihrer Organisation ab und vervollständigen dadurch ihren BIM-Reifegradcheck."
         }
     ],
     "showProgressBar": "top",
