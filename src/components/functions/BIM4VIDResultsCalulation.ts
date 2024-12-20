@@ -12,6 +12,14 @@ export function BIM4VIDcalculation(
                 const response = responses[`BIM4VIDQuestion${i}`];
                 let color = 'green';
                 if (responses.BIM4VIDQuestion1 === 'Item 1') {
+                    if (response > 3) {
+                        color = 'green';
+                    } else if (response === 3) {
+                        color = 'yellow';
+                    } else {
+                        color = 'red';
+                    }
+                } else if (responses.BIM4VIDQuestion1 === 'Item 2') {
                     if (response > 2) {
                         color = 'green';
                     } else if (response === 2) {
@@ -19,7 +27,7 @@ export function BIM4VIDcalculation(
                     } else {
                         color = 'red';
                     }
-                } else if (responses.BIM4VIDQuestion1 === 'Item 2') {
+                } else if (responses.BIM4VIDQuestion1 === 'Item 3') {
                     if (response > 1) {
                         color = 'green';
                     } else if (response === 1) {
