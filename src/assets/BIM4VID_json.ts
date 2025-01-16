@@ -27,7 +27,7 @@ const BIM4VID = {
                 {
                     "type": "html",
                     "name": "explanationquestion1",
-                    "html": "Die Berechnungsmethode der Auswertung ergibt sich anhand der von Ihnen betreuten Straßenklasse und gemäß den im Masterplan BIM Bundesfernstraßen definierten Zielen. Die Anforderungen von Organisationen des Bundesfernstraßenbaus wurden entsprechend für Landes- und Kreisstraßen abgeschwächt."
+                    "html": "Die Berechnungsmethode der Auswertung ergibt sich anhand der von Ihnen betreuten Straßenklasse und gemäß den im Masterplan BIM Bundesfernstraßen definierten Zielen. Die Anforderungen von Organisationen des Bundesfernstraßenbaus wurden entsprechend für Landes- und Kreisstraßen abgeschwächt. Unternehmen können sich entsprechend der Empfehlungen in Klammern ihre Bewertungsmatrix auswählen."
                 },
                 {
                     "type": "radiogroup",
@@ -38,15 +38,15 @@ const BIM4VID = {
                     "choices": [
                         {
                             "value": "Item 1",
-                            "text": "Bundesfernstraßen"
+                            "text": "Bundesfernstraßen (oder große Unternehmen)"
                         },
                         {
                             "value": "Item 2",
-                            "text": "Landstraßen"
+                            "text": "Landstraßen (oder mittlere Unternehmen)"
                         },
                         {
                             "value": "Item 3",
-                            "text": "Kreisstraßen"
+                            "text": "Kreisstraßen (oder kleine Unternehme)"
                         }
                     ]
                 }
