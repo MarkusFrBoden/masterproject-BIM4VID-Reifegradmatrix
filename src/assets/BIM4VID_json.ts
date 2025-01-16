@@ -46,7 +46,7 @@ const BIM4VID = {
                         },
                         {
                             "value": "Item 3",
-                            "text": "Kreisstraßen (oder kleine Unternehme)"
+                            "text": "Kreisstraßen (oder kleine Unternehmen)"
                         }
                     ]
                 }
